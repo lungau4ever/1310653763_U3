@@ -4,13 +4,15 @@
  * and open the template in the editor.
  */
 
-package pkg1310653763_u3;
+package pkg_aufgabe3;
+
+import pkg_aufgabe3.BenennbarAbstract;
 
 /**
  *
  * @author xxx
 **/
-public class Vehicle implements Benennbar {
+public class Vehicle3 extends BenennbarAbstract {
     
     private short wheels,ps,doors,speed;
     public enum color {black,silver,red,grey,yellow,blue};
@@ -27,12 +29,12 @@ public class Vehicle implements Benennbar {
        name = _n;
     }
     
-      public Vehicle()
+      public Vehicle3()
    {
        
    }
 
-    public Vehicle(short w,color f, short ps, short d, short s, boolean st) {
+    public Vehicle3(short w,color f, short ps, short d, short s, boolean st) {
         this.wheels = w;
         this.ps = ps;
         this.doors = d;

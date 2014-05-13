@@ -4,18 +4,18 @@
  * and open the template in the editor.
  */
 
-package pkg1310653763_u3;
+package pkg_aufgabe3;
 
 /**
  *
  * @author xxx
  */
-public class Boat extends Vehicle{
+public class Boat3 extends Vehicle3{
     
     private double draft,cargo;
     private short propeller;
 
-    public Boat(short w,color f, short ps, short d, short s, boolean st, double dr, double c, short p) {
+    public Boat3(short w,color f, short ps, short d, short s, boolean st, double dr, double c, short p) {
         super(w,f, ps, d, s, st);
         this.draft = dr;
         this.cargo = c;

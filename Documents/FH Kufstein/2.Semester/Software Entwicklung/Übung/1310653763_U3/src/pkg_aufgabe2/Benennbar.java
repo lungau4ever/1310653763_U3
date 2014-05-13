@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package pkg1310653763_u3;
+package pkg_aufgabe2;
 
 /**
  *

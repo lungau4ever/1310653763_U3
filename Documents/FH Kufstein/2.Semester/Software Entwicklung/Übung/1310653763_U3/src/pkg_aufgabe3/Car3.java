@@ -4,25 +4,25 @@
  * and open the template in the editor.
  */
 
-package pkg1310653763_u3;
+package pkg_aufgabe3;
 
 /**
  *
  * @author xxx
  */
-public class Car extends Vehicle{
+public class Car3 extends Vehicle3{
     private boolean aircondition=false;
     private short airbag;
     
     
     
-    public Car(short w,color f, short ps, short d, short s, boolean st, boolean ac, short ab) {
+    public Car3(short w,color f, short ps, short d, short s, boolean st, boolean ac, short ab) {
         super(w,f, ps, d, (short)0, st);
         aircondition =ac;
         airbag=ab;
     }
 
-    public Car() {
+    public Car3() {
         super();
     }
     
